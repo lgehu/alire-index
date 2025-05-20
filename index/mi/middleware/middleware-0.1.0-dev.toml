@@ -1,0 +1,23 @@
+name = "middleware"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["lgehu"]
+maintainers = ["lgehu <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+#[configuration.variables]
+#ADL_CONFIG_PATH = {type = "String", default = ""}
+
+[[depends-on]]
+hal = "0.1.0-dev"
+
+[origin]
+hashes = [
+"sha256:af0434bc480fc7d7831f6610adffb0e3603d4e9eb260ff3608c47c5d9f744da6",
+"sha512:e9090bb9b437aba905aab1b4c0c1eb4791c450a087647b0753581a25413790f1d49243b258d44656ddcf9cd406fd505b58e270592a98acab6ebfdff6c2b35821",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/middleware/middleware-0.1.0-dev.tgz"
+

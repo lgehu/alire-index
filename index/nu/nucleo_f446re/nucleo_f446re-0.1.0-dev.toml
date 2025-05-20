@@ -1,0 +1,28 @@
+name = "nucleo_f446re"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["lauric"]
+maintainers = ["lauric <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags =  ["stm32", "board"]
+
+#[configuration.values]
+#middleware.ADL_CONFIG_PATH = "${CRATE_ROOT}/src/full/"
+
+[environment]
+ADL_CONFIG_PATH.set= "${CRATE_ROOT}/src/full/"
+
+[[depends-on]]
+arm = "0.1.0-dev"
+
+
+[origin]
+hashes = [
+"sha256:2d0efc3c39806a6ca3746bf379236fe0f7afe4c349ab73729c4cd00e13ca306c",
+"sha512:a2a271b314328e4cdca7c8625ddcb7e99355999d498a66cd1213320ebe12683444e5f078069b4562f856b4a0dcc95c45696804925e6f4cdbb9e0147353144f6c",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/nucleo_f446re/nucleo_f446re-0.1.0-dev.tgz"
+

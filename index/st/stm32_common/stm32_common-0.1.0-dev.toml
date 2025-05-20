@@ -1,0 +1,20 @@
+name = "stm32_common"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Your Name"]
+maintainers = ["lgehu <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["stm32"]
+
+[[depends-on]]
+arm = "~0.1.0-dev"
+[origin]
+hashes = [
+"sha256:fdb8007c41be5968c2dc15ff04de4f73010f9913e0dabd09c70de47e0e50d676",
+"sha512:6b2fac181ee1ad4119441802a19991eab62f340dbea8294aee707a11ea8bf21879bd8dd26775b8f744e9c62572bb9e3750253eab92adb0fca3e2350ebce3e740",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/stm32_common/stm32_common-0.1.0-dev.tgz"
+

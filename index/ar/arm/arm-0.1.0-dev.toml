@@ -1,0 +1,24 @@
+name = "arm"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["lgeh"]
+maintainers = ["lgehu <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["stm", "drivers"]
+
+[[depends-on]]
+middleware = "=0.1.0-dev"
+
+[[depends-on]]
+hal = "=0.1.0-dev"
+
+[origin]
+hashes = [
+"sha256:b3d35103c73abbb09ca2036b244b9e46dfcdc41f471a4450a83a88731fb36efd",
+"sha512:56ee880ff4348ec042c2ab02958b605942e02d827ddf68b98ee1eac59a259acd5dc390b9455f605d1b80f3796589cb694e6cce279a241036e3a9280077dadc2b",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/arm/arm-0.1.0-dev.tgz"
+

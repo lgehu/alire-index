@@ -1,0 +1,24 @@
+name = "components"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Your Name"]
+maintainers = ["Your Name <example@example.com>"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = []
+
+[[depends-on]]
+hal = "~0.1.0-dev"
+
+[[depends-on]]
+middleware = "~0.1.0-dev"
+
+
+[origin]
+hashes = [
+"sha256:82a00f6ec25f4d9c8408e1cf9591f3f851a7901e21e424306393723f93d1dfac",
+"sha512:038e6e4097f1960342d791da86b21f7dfa8c45ce98a78c167c9a5b03d95e8cbf1a3caf2f9f004aa09cd8c85f5347e75a0ae84c1c9e4ddc8be6f94b3c217f69f8",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/components/components-0.1.0-dev.tgz"
+

@@ -1,0 +1,23 @@
+name = "f446re_example"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["lauric"]
+maintainers = ["lauric <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["stm32", "f446re"]
+
+executables = ["f446re_example"]
+
+[[depends-on]]
+nucleo_f446re = "~0.1.0-dev"
+
+[origin]
+hashes = [
+"sha256:57dfe8de4e1b7754a6443ee96020c464d609e77954ef023b77fe5de6498b9a17",
+"sha512:157f8b3c7c719a47f7d007e82b7e900af79c69a1c41ec8cdefeca8238bdbe0f02b46ad081ccb2e2cdbc5cec93161fbd8a58bacd86423c64671966dc78b868c82",
+]
+url = "https://github.com/lgehu/alr_adl_crates/raw/refs/heads/remote-dep/f446re_example/f446re_example-0.1.0-dev.tgz"
+
