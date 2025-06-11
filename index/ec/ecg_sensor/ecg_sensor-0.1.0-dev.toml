@@ -1,0 +1,20 @@
+name = "ecg_sensor"
+description = "Virtualization of an ECG sensor using Pan-Tompkins algorithm"
+version = "0.1.0-dev"
+
+authors = ["lauric"]
+maintainers = ["lauric <lauric_gehu@etu.u-bourgogne.fr>"]
+maintainers-logins = ["lgehu"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = ""
+tags = ["sensor", "stm32f446re", "biosignal", "ecg"]
+
+executables = ["ecg_sensor"]
+
+[[depends-on]]
+nucleo_f446re = "~0.1.0-dev"
+
+[origin]
+commit = "35d5a9d830352e8f2ea6bf87cc1496ceef9eee4b"
+url = "git+https://github.com/lgehu/ecg_sensor.git"
+
