@@ -16,6 +16,6 @@ nucleo_f446re = "~0.1.0-dev"
 
 
 [origin]
-commit = "8e175c3ed87133ed6942fff737138cb23cc4d171"
-url = "git+https://github.com/lgehu/ecg_sensor.git"
+commit = "166bbb6da1f9e2f0cb00500eaaa36b0ba31c6b03"
+url = "git+https://github.com/lgehu/ecg_sensor"
 
